@@ -6,7 +6,7 @@ const UPLOAD_PRESET = "wedding_bingo"; // unsigned preset — create this in Clo
 // ── JSONBin config (metadata only — no photos stored here) ──────
 const BIN_ID  = "69ceb06faaba882197bbd7d7";
 const API_KEY = "$2a$10$nylqx.q2yf1ovWUTEscUqu/5OwsTYEG2NKgHWALIhJZqq/7qQBTci";
-const BIN_URL = `https://api.jsonbin.io/v3/b/${BIN_ID}`;
+const BIN_URL = "https://api.jsonbin.io/v3/b/" + BIN_ID;
 const BIN_HEADERS = { "Content-Type": "application/json", "X-Master-Key": API_KEY };
 
 async function readBin() {
